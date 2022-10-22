@@ -44,9 +44,9 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send(('hello from lapto_store00_server'))
-})
+    res.send(('hello from lapto_store00_server'));
+});
 
 app.listen(port, () => {
-    console.log(`laptop_store00_server app listening on port${port})`)
-})
+    console.log(`laptop_store00_server app listening on port${port})`);
+});
